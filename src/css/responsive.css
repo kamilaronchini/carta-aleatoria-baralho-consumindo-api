@@ -1,0 +1,27 @@
+@media (max-width: 750px) {
+    .container .header {
+        font-size: 60%;
+    }
+
+    .container .card-information {
+        width: 70%;
+    }
+}
+
+@media (max-width: 550px){
+    .container .card-information .deck-card-name {
+        flex-direction: column;
+    }
+
+    .container .header img{
+        width: 7%;
+    }
+
+    .container .header {
+        font-size: 50%;
+    }
+
+    .container .card-information .deck-card-name {
+        font-size: 80%;
+    }
+}

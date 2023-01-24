@@ -1,0 +1,70 @@
+body {
+    background-image: url('../images/fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Aboreto', cursive;
+    padding-top: 50px;
+    font-size: 80%;
+}
+
+.container .header img{
+    width: 5%;
+}
+
+.container .header .title {
+    width: 60%;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .card-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.897);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 20px;
+    gap: 20px;
+}
+
+.container .card-information .deck-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card-information .deck-card img{
+    width: 70%;
+}
+
+.container .card-information .deck-card-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Aboreto', cursive;
+    font-weight: bold;
+}
+
+.container .button img{
+    width: 100px;
+    cursor: pointer;
+    margin-bottom: -50px;
+}
